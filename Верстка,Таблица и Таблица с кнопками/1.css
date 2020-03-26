@@ -1,0 +1,75 @@
+header {
+	position: absolute;
+	left: 0%;
+	top:0%;
+	height: 7%;
+	width: 98.7%;
+	border-bottom: solid blue ;
+	background: linear-gradient(to left, blue, white);
+    padding: 10px;
+
+}
+.head{
+	font: normal;
+}
+nav {
+	position: absolute;
+	top:10%;
+	left: 0%;
+	height: 80%;
+	width: 20%;
+	background: linear-gradient(to left, white, blue);
+    
+    	}
+
+.padding{
+	padding-left: 3%;
+}
+.img {
+	border:2px solid #004DFF;
+	margin: 3%;
+}
+.logo {
+	margin-right: 1%;
+}
+
+.buttt{
+	color:white;
+	background-color: blue;
+	border-top: solid;
+	border-bottom: solid;
+	border-color: white;
+	top: 0%;
+	left: 0%; 
+	padding-left: 10%;
+}
+
+article {
+	position: absolute;
+	top: 10%;
+	left: 80%;
+	height: 80%;
+	width: 20%;
+	background: linear-gradient(to left, white, blue);
+}
+aside {
+	position: absolute;
+	top: 10%;
+	left: 15.1%;
+	height: 80%;
+	width: 64.6%;
+	background-color: white;
+	border-left: dotted blue;
+	border-right: dotted blue;
+}
+
+footer {
+	position: absolute;
+	top: 90%;
+	left: 0%;
+	height:7%;
+	width: 98.7%;
+	background: linear-gradient(to left, blue, white);
+    padding: 10px;
+
+}

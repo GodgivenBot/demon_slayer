@@ -1,0 +1,263 @@
+<!DOCTYPE html> 
+<html >
+<head >
+	<link rel="stylesheet" type="text/css" href="1.css">
+
+	<title>BEST CONTENT EVER, LOL</title>
+</head>
+<body>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="jquery.backgroundvideo.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			var videobackground = new $.backgroundVideo($('body'), {
+				"align": "centerXY",
+				"width": 1280,
+				"height": 720,
+				"path": "video/",
+				"filename": "DS",
+				"types": ["mp4","ogg","webm"],
+				"preload": true,
+				"autoplay": true,
+				"loop": true
+			});
+		});
+	</script>
+	<div id="gray_lay"></div>
+	<header><br><h1 class="header"> Demon Slayer: Kimetsu no Yaiba</h1></header>
+
+	<div class="nav">
+	<table><tr>
+		<li onclick="homepage1();"/>Homepage<br><br><br><br></th></li>
+		<li value="descr" onclick="descri();"/>Description<br><br><br><br></li>
+		<li value="char" onclick="char1();"/>Characters<br><br><br><br></li>
+		<li value="watc" onclick="watch();"/>Watch Trailer<br><br><br><br></li>
+		<li value="mut" onclick="mute();">Mute music</li>
+		</tr>
+		</table>
+	<script> 
+		function homepage1() {
+			document.getElementById("char").style="display:none";
+			document.getElementById("descr").style="display:none";
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:none";
+			document.getElementById("watc").style="display:none";
+	
+		}
+
+		function char1() {
+			document.getElementById("char").style="display:block";
+			document.getElementById("descr").style="display:none";
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:none";
+			document.getElementById("watc").style="display:none";
+			document.getElementById("TanjiroKamado").style="display:block";
+
+
+		}
+
+		function descri() {
+			document.getElementById("descr").style="display:block";
+			document.getElementById("char").style="display:none";
+			document.getElementById("watc").style="display:none";
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:none";
+			document.getElementById("watc").style="display:none";
+
+		}
+
+
+		function watch() {
+			document.getElementById("watc").style="display:block";
+			document.getElementById("char").style="display:none";
+			document.getElementById("descr").style="display:none";
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:none";
+
+		}
+		function mute() {
+			document.videobackground.sounds="stop"
+		}
+	</script>
+	</div>
+
+	
+
+	<div id="descr"><img src="text_intro.png" align="left">
+	</div>
+	
+	
+	<div id="char">
+		<font size="4" color="white" face="Arial"><br>
+		<table><tr align="center">
+    <th value="TanjiroKamado" onclick="hideshow1();"/>[Tanjiro Kamado]</th>
+    <th value="NezukoKamado" onclick="hideshow2();"/>[Nezuko Kamado]</th>
+    <th value="ZenitsuAgatsuma" onclick="hideshow3();"/>[Zenitsu Agatsuma]</th>
+    <th value="InosukeHashibira" onclick="hideshow4();"/>[Inosuke Hashibira]</th>
+    <th value="GiyuTomioka" onclick="hideshow5();"/>[Giyu Tomioka]</th>
+    <th value="SakonjiUrokodaki" onclick="hideshow6();"/>[Sakonji Urokodaki]</th>
+    <th value="Sabito" onclick="hideshow7();"/>[Sabito]</th>
+    <th value="Makomo" onclick="hideshow8();"/>[Makomo]</th>
+   </tr></table>
+   <script> 
+		function hideshow1() {
+			document.getElementById("TanjiroKamado").style="display:block";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:none";
+
+
+		}
+		function hideshow2() {
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:block";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:none";
+		}
+		function hideshow3() {
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:block";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:none";
+		}
+		function hideshow4() {
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:block";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:none";
+		}
+		function hideshow5() {
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:block";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:none";
+		}
+		function hideshow6() {
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:block";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:none";
+		}
+		function hideshow7() {
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:block";
+			document.getElementById("Makomo").style="display:none";
+		}
+		function hideshow8() {
+			document.getElementById("TanjiroKamado").style="display:none";
+			document.getElementById("NezukoKamado").style="display:none";
+			document.getElementById("ZenitsuAgatsuma").style="display:none";
+			document.getElementById("InosukeHashibira").style="display:none";
+			document.getElementById("GiyuTomioka").style="display:none";
+			document.getElementById("SakonjiUrokodaki").style="display:none";
+			document.getElementById("Sabito").style="display:none";
+			document.getElementById("Makomo").style="display:block";
+		}
+		
+	</script>
+		</div>
+
+	<div id="TanjiroKamado">
+		<img src="tan.jpg" align="left">
+		<p align="center">Tanjiro joins the Demon Slayer Corps in order to turn his sister Nezuko, who has become a demon, back into a human,<br> as well as to avenge the death of his family by hunting down the demon who killed them. <br>He has an acute sense of smell which enables him to identify the weak spots in demons or other opponents he battles.</p>
+
+	</div>
+
+	<div id="NezukoKamado">
+		<img src="nez.jpg" align="left">
+		<p class="text" align="center">Tanjiro's younger sister. <br>After being attacked by a demon whose blood entered her body through an open wound, she became a demon herself.<br> Even after becoming a demon, she protects Tanjiro and other humans.<br> Before she was transformed, she was a gentle girl who loved her family.
+</p>
+	</div>
+	<div id="ZenitsuAgatsuma">
+		<img src="zen.png" align="left">
+		<p class="text" align="center">He joins the Demon Slayer Corps at the same time as Tanjiro.<br>
+He has an acute sense of hearing, and can identify the sounds made by other people or demons.<br>
+Zenitsu has zero confidence in himself and often talks self-deprecatingly.<br>
+However, when he is scared to death, he falls asleep and his personality changes to a sharp-minded person.
+
+	</div>
+	<div id="InosukeHashibira">
+		<img src="iso.jpg" align="left">
+		<p align="center">He joins the Demon Slayer Corps at the same time as Tanjiro.<br>
+Inosuke is a very aggressive boy, and is always seen wearing a wild boar mask.<br>
+Because he grew up in the mountains, he has an acute sense of touch which enables him to locate anything that he cannot see in his immediate surroundings.
+
+	</div>
+	<div id="GiyuTomioka">
+		<img src="gui.jpg" align="left">
+		<p align="center">Giyu is one of main members of Hashira, a group of the Corps' top-ranked slayers. <br>
+A quiet, stoic man, he is the one who recruited Tanjiro for the Demon Slayer Corps.
+
+	</div>
+	<div id="SakonjiUrokodaki">
+		<img src="sak.png" align="left">
+		<p align="center">A man with a goblin mask. <br>He lives in a small hut at the foot of Mount Sagiri where he trains candidate Demon Slayer Corps swordsmen.
+	</div>
+	<div id="Sabito">
+		<img src="sab.jpg" align="left">
+		<p align="center">An orphan adopted and raised by Urokodaki.<br>Sabito suddenly appears before Tanjiro during training.
+	</div>
+	<div id="Makomo">
+		<img src="mak.jpg" align="left">
+		<p align="center">Also an orphan raised by Urokodaki like Sabito.<br>Makomo is a cute girl with a mysterious air.
+	</div>
+
+
+	<div id="watc"><iframe width="1080" height="550" src="https://www.youtube.com/embed/xcTxh4Mmasg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+	
+	
+</body>
+</html>
